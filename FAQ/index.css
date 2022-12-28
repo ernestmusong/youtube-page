@@ -1,0 +1,157 @@
+.follow {
+    color: #087b5e !important;
+	text-align:left;
+	display:none;
+/* 	#626262 */
+}
+footer .footer-nav .navbar-nav > li > ul > li > a {
+    color: #919191 !important;
+	font-weight: bold;
+}
+@media (min-width: 768px) {
+	#landing-main, #promo-winners{
+		justify-content: space-between;
+	}
+	.landing-info{
+		justify-content: space-between;
+	}
+}
+@media (max-width: 768px) {
+	.landing-image-hidden{
+		display:none;
+	}
+	#landing-main{
+		flex-direction: column;
+	}
+	.landing-image-container{
+		height: auto !important;
+		width: 100% !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.landing-info{
+		justify-content: space-around;
+	}
+	.landing-heading-container{
+		padding: 2rem !important;
+		width: 80% !important;
+	}
+	.landing-heading{
+		font-size: 2.5rem !important;
+	}
+	.landing-heading-span{
+		font-size: 2rem !important;
+	}
+	#landing-button{
+		width: 100% !important;
+	}
+	.landing-button-container{
+		width: 80vw !important;
+	}
+	#promo-winners{
+		width: 90vw !important;
+		height: 90vh!important;
+	}
+	.promo-winner-image-container{
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+
+/*STM TEAM*/
+footer .footer-nav .navbar-nav > li > a {
+    color: #087b5e !important;
+		font-weight: 700;
+		font-size: 12px;
+}
+footer .copyright{
+	display:none !important;
+}
+footer .copyright .copyright-wrap {
+    padding: 15px 0;
+    border-top: 1px solid #2d2f41;
+}
+footer .bto-payment-partners {
+    border-top: 1px solid 	#2d2f41;
+}
+footer .footer-nav .navbar-nav {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    width: 105%;
+		text-align:center;
+		margin:auto;
+}
+footer .footer-nav .bto-social-menu li a[href*="facebook"]:before {
+		border-radius: 7px;
+		background:#1877f2;
+}
+a[href*="instagram"]:before {
+		border-radius: 7px;
+		    background: #f09433;
+    background: -moz-linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: -webkit-linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg,#f09433 0,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+a[href*="twitter"]:before {
+		border-radius: 7px;
+		background:#1DA1F2;
+}
+.site-main .container-fluid {
+    padding: 0px 0 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+/*FAQs*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	color: #fff;
+	background-color:#08664f;
+}
+.nav-pills > li > a{
+	color: #fff;
+	
+}
+.nav-pills > li > a:hover{
+	color: #08664f;
+	
+}
+	b{
+			color:#919191;
+		color: orange;
+	}
+	p{
+			color:#fff;
+	}
+@media (min-width: 768px) {
+.brand-pills > li > a {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius:0px;
+  }
+li.brand-nav.active a:after{
+	content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 9px solid #08664f;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	left: 100%;
+	z-index: 2;
+ }
+	
+}
+/*End FAQs*/
+/*END STM TEAM*/
+[btobet_shortcode id="1" name="Sportsbook" ]
+[btobet_shortcode id=12 name="Sportsbook Live"]
+[btobet_shortcode id=4 name="Casino One Column"]
+[btobet_shortcode id="16" name="jackpot" ]
+[btobet_shortcode id="29" name="New Virtual"]
+[btobet_shortcode id=15 name="Casino One Column Providers"]
+[btobet_shortcode id="20" name="Live casino games" ]
+[btobet_shortcode id="26" name="Mines Virtual"]
+[btobet_shortcode id="27" name="Spribe" ]
+[btobet_shortcode id=14 name="Virtuals"]

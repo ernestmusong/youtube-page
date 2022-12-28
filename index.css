@@ -1,0 +1,134 @@
+html, *, body {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  display: block;
+}
+/* Nav bar */
+#navigation{
+    height: 56px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.nav-bar-child{
+  height: 75%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+
+}
+.logo{
+  width: 100px;
+  height: 100%;
+  background: yellow;
+}
+.logo img{
+  height: 100%;
+   
+}
+.nav-icons{
+  height: 100%;
+  width: 42px;
+  border: none;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+
+}
+.nav-icons:hover{
+  background: #ccc;
+  cursor: pointer;
+}
+.nav-bar-middle{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 75%;
+  justify-content: space-between;
+ 
+}
+.nav-bar-middle form{
+  height: 100%;
+  width: 93%;
+  border: 1px solid gray;
+  border-radius:25px;
+  display: flex;
+  align-items: center;justify-content: space-between;
+}
+.nav-bar-middle input[type=text]{
+  height:100%;
+  border: none;
+  
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 92%;
+}
+.nav-bar-middle  button{
+  /* background-color: #ccc; */
+  color: #333;
+  font-size: 10px;
+  border: none;
+  border-left: 1px solid gray;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  cursor: pointer;
+  width: 8%;
+  height: 100%;
+}
+.nav-bar-middle .voice-search{
+  background-color: #eeeeee;
+}
+  #main{
+    margin-top: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding-left: 55px;
+    padding-right:55px ;
+  }
+  #video-section{
+    padding-right: 20px;
+  }
+  #video-container{
+     
+  }
+  #video-wrapper{
+    height: 500px;
+  }
+  #video-footer{
+    width: 100%;
+  }
+  #video-title-section{
+   width: 100%;
+  }
+  #video-views-section{
+    width: 100%;
+    background: #eee;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #comments-section{
+    background-color: blue;
+    height: 50px;
+  }
+  #side-bar{
+    background-color: burlywood;
+    height: 500px;
+  }
