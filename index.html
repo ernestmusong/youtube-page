@@ -11,6 +11,7 @@
 <body>
     <!-- Navigation -->
     <div id="navigation">
+        <!-- left section -->
        <div class="nav-bar-left nav-bar-child">
         <div class="nav-icons">
             <i class="fas fa-map-marker-alt"></i>
@@ -19,6 +20,7 @@
             <img src="https://download.logo.wine/logo/YouTube/YouTube-Logo.wine.png" alt="">
         </div>
        </div>
+       <!-- middle section -->
        <!-- Form -->
        <div class="nav-bar-middle">
         <form action="#">
@@ -26,15 +28,14 @@
                 placeholder=" Search"
                 name="search">
             <button>
-                <i class="fa fa-search"
-                    style="font-size: 16px;">
-                </i>
+                <i class="fa fa-search"></i>
             </button>
         </form>
         <div class="nav-icons voice-search">
             <i class="fas fa-map-marker-alt"></i>
         </div>
        </div>
+       <!-- Right section -->
        <div class="nav-bar-right nav-bar-child">
         <div class="nav-icons">
             <i class="fas fa-map-marker-alt"></i>
@@ -54,54 +55,106 @@
             <!-- video container -->
             <div id="video-container">
                 <div id="video-wrapper">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5Pze_mdbOK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="488px" src="https://www.youtube.com/embed/5Pze_mdbOK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div id="video-footer">
                     <div id="video-title-section">
                         <div id="song-title-container">
-                            <a href="#">#WhitneyHouston #OfficialHDVideo  #ILooktoYou</a>
-                            <h4>Whitney Houston - I Look to You (Official HD Video)</h4>
+                            <a style="text-decoration: none; font-size: 12px;" href="#">#WhitneyHouston #OfficialHDVideo  #ILooktoYou</a>
+                            <h3>Whitney Houston - I Look to You (Official HD Video)</h3>
                         </div>
-                        <div id="artist-name-conatainer">
-                            <div class="artist-face-container">
-                                <div class="artist-face"></div>
-                                <div class="artist-title">
-                                    <h5>Whitney Houston</h5>
-                                    <p>7.74M subscribers</p>
+                        <!-- Artist name and face -->
+                        <div id="artist-name-section">
+                            <div id="artist-name-container">
+                                <div class="artist-face-container">
+                                    <div class="artist-face"></div>
+                                    <div class="artist-title">
+                                        <h4>Whitney Houston</h4>
+                                        <p>7.74M subscribers</p>
+                                    </div>
                                 </div>
+                                 <!-- subscribe button -->
+                            <button id="subscribe-button" class="footer buttons">Subscribe</button>
+                            </div>
+                            <!-- Social Buttons -->
+                            <div class="social-buttons-wrapper">
+                                <div style="width: 130px;background: #eee; border-radius: 25px; display: flex; align-items: center;">
+                                    <button style="width: 60%; border-top-right-radius: 0; border-bottom-right-radius: 0;"  class="social-buttons">
+                                        <i class="fas fa-map-marker-alt"></i><span style="margin-left: 5px; font-size: 16px;">1.2M</span>
+                                    </button>
+                                    <div class="divider"></div>
+                                    <button style="width: 40%; border-top-left-radius: 0; border-bottom-left-radius: 0;"  class="social-buttons">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </button>
+                                </div>
+                                <button style="padding-left: 15px; padding-right: 15px;" class="social-buttons">
+                                    <i class="fas fa-map-marker-alt"></i><span style="margin-left: 5px; font-size: 16px;">Share</span>
+                                </button>
+                                <button style="padding-left: 15px; padding-right: 15px;" class="social-buttons">
+                                    <i class="fas fa-map-marker-alt"></i><span style="margin-left: 5px; font-size: 16px;">Clip</span>
+                                </button>
+                                <button style="height: 38px; width: 38px;" class="social-buttons">
+                                    <i class="fas fa-map-marker-alt"></i> 
+                                </button>
                             </div>
                         </div>
-                        <!-- subscribe button -->
-                        <button id="subscribe-button" class="footer buttons">Subscribe</button>
-                        <!-- Social Buttons -->
-                        <div class="social-buttons-wrapper">
-                            <div class="social-buttons">
-                                <button class="social-buttons">
-                                    <i class="fas fa-map-marker-alt"></i><span>1.2M</span>
-                                </button>
-                                <button class="social-buttons">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </button>
-                            </div>
-                            <button class="social-buttons">
-                                <i class="fas fa-map-marker-alt"></i><span>1.2M</span>
-                            </button>
-                            <button class="social-buttons"></button>
-                            <button class="social-buttons"></button>
-                            <button class="social-buttons"></button>
-                        </div>
+                       
+                       
+                        
                     </div>
                     <div id="video-views-section">
-                        <p style="color: #333;">240,035,176 views  Nov 14, 2009</p>
+                        <p style="color: black; font-weight: bold;">240,035,176 views  Nov 14, 2009</p>
                         <p>Official HD Video for ”I Look to You” by Whitney Houston</p>
                         <p>Listen to Whitney Houston: <span><a href="https://whitneyhouston.lnk.to/listenYD">https://whitneyhouston.lnk.to/listenYD</a></span></p>
-                        <p>Watch more Whitney Houston videos: <span><a href="https://www.youtube.com/playlist?list=PLyxWCv_X0MiSCXJDwRIsvmRzpdUUJ_v9L">https://www.youtube.com/playlist...</a></span></p><span id="show-more">show more</span>
+                        <p>Watch more Whitney Houston videos: <span><a href="https://www.youtube.com/playlist?list=PLyxWCv_X0MiSCXJDwRIsvmRzpdUUJ_v9L">https://www.youtube.com/playlist...</a></span>  <span id="show-more" style="color: black; font-weight: bold;">show more</span></p>
                     </div>
                 </div>
             </div>
             <!-- End video container -->
             <!-- Comments section -->
-            <div id="comments-section"></div>
+            <div id="comments-section">
+                <div id="comments-form">
+                    <div id="sort-comments">
+                        <p style="margin-right: 25px;">77,961 Comments</p>
+                        <i style="float: right;" class="fas fa-map-marker-alt"></i><span style="float: right; margin-left: 5px; font-size: 16px; font-weight: bold;">Sort by</span>
+                    </div>
+                    <div id="form-wrapper">
+                        <div class="commenter-face"></div>
+                        <form id="form" action="">
+                            <input type="text" placeholder="Add a comment">
+                        </form>
+                    </div>
+                    
+                    <div id="submit-comment-div">
+                        <button id="below-form-imoji" style="background: transparent; margin-left: 45px; height: 38px; width: 38px; border-radius: 25px; border: none;" >
+                            <i class="fas fa-map-marker-alt"></i> 
+                        </button>
+                        <button id="comment-btn" >Comment</button>
+                        <button id="cancel-comment">Cancel</button>
+                    </div>
+                    <!-- Users comments -->
+                    <div id="all-comments">
+                        <div id="user-comment-wrapper">
+                            <div class="commenter-face"></div>
+                            <div id="comment-container">
+                                <p><span style="color: black; font-weight: bold;">Viewer's name </span><span style="font-size: 11px;">2 weeks ago</span></p>
+                                <p style="font-size: 16px;">The power in this song. Brought me to tears. There will never be another Whitney</p>
+                            </div>
+                        </div>
+                        <div id="likes-container">
+                            <div style="margin-left: 45px;" class="likes">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <p>196</p>
+                            <div style="margin-left: 5px;" class="likes">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <button id="reply-btn" style="margin-left: 5px;" >Reply</button>
+                        </div>
+                        <button id="num-of-replies"><span style="margin-right: 8px;"> <i style="font-size: 12px;" class="fas fa-map-marker-alt"></i></span>8 replies</button>
+                    </div>
+                </div>
+            </div>
             <!-- End comments section -->
         </div>
         <!-- side-bar -->

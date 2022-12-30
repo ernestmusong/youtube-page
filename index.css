@@ -21,7 +21,8 @@ body{
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-    
+    z-index: 999;
+    background: white;
 }
 .nav-bar-child{
   height: 75%;
@@ -35,7 +36,6 @@ body{
 .logo{
   width: 100px;
   height: 100%;
-  background: yellow;
 }
 .logo img{
   height: 100%;
@@ -57,14 +57,14 @@ body{
 .nav-bar-middle{
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 52%;
   height: 75%;
   justify-content: space-between;
  
 }
 .nav-bar-middle form{
   height: 100%;
-  width: 93%;
+  width: 92.5%;
   border: 1px solid gray;
   border-radius:25px;
   display: flex;
@@ -73,7 +73,6 @@ body{
 .nav-bar-middle input[type=text]{
   height:100%;
   border: none;
-  
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   width: 92%;
@@ -107,14 +106,81 @@ body{
   #video-container{
      
   }
-  #video-wrapper{
-    height: 500px;
-  }
+  
   #video-footer{
     width: 100%;
   }
+  
   #video-title-section{
    width: 100%;
+   padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .artist-face-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 51%;
+      
+  }
+  #artist-name-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 42px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+    
+  }
+  #artist-name-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 40%;
+  }
+  .artist-face, .commenter-face{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 50px;
+    background-color: #eee;
+  }
+  .artist-title{
+    height: 42px;
+  }
+  #subscribe-button{
+    height: 38px;
+    border-radius: 25px;
+    background: #000;
+    width: 90px;
+    color: #fff;
+    margin-right: 30px;
+  }
+  .social-buttons-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 43%;
+  }
+  .social-buttons-wrapper .social-buttons{
+    height: 38px;
+    background: #eee;
+    border-radius: 25px;
+    border: none;
+  }
+  .social-buttons-wrapper .social-buttons:hover{
+    background: #ddd;
+  }
+  .social-buttons-wrapper .divider{
+    height: 20px;
+    width: 1px;
+    border: none;
+    background: #ccc;
+  }
+  i{
+    font-size: 16px;
   }
   #video-views-section{
     width: 100%;
@@ -124,11 +190,127 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  /* comments section */
   #comments-section{
-    background-color: blue;
-    height: 50px;
+    
   }
+  #form-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+  }
+  #comments-form{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #comments-form #sort-comments{
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+  form{
+    width: 93%;
+  }
+  #comments-form input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    border-color: #eee;
+  }
+  #comments-section #submit-comment-div{
+    width: 100%;
+     
+  }
+  #comments-section #below-form-imoji:hover{
+    background: #ddd !important;
+     cursor: pointer;
+  }
+  
+  #comments-section #comment-btn{
+    height: 38px;
+    border: none;
+    border-radius: 25px;
+    background: #eee;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+  }
+  #comments-section #cancel-comment{
+    height: 38px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    background: transparent;
+  }
+  #comments-section #cancel-comment:hover{
+    background: #ddd;
+    cursor: pointer;
+   }
+   #comment-container{
+    width: 93%;
+   }
+   #user-comment-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+  }
+  #likes-container{
+    display: flex;
+    align-items: center;
+  }
+  
+  #likes-container .likes{
+    height: 42px;
+    width: 42px;
+    border: none;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+  
+  }
+  #likes-container .likes:hover{
+    background: #ccc;
+    cursor: pointer;
+  }
+  #likes-container #reply-btn{
+    height: 38px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    background: transparent;
+  }
+  #likes-container #reply-btn:hover{
+    background: #ddd;
+    cursor: pointer;
+   }
+   #all-comments #num-of-replies{
+    height: 38px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent;
+    color: blue;
+    margin-left: 45px;
+   }
+   #all-comments #num-of-replies:hover{
+    background: lightblue;
+    cursor: pointer;
+   }
   #side-bar{
     background-color: burlywood;
-    height: 500px;
+    height: 488px;
+    overflow-y: scroll;
   }
